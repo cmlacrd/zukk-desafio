@@ -47,8 +47,9 @@ $ npm install -g json server
 $ json-server --watch clients.json
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000> e <http://localhost:3000/clients> para ver os clientes
+```
 
-### 🎲 Rodando o Front End (angular
+### 🎲 Rodando o Front End (Angular)
 
 ```bash
 # Clone este repositório
@@ -68,7 +69,7 @@ $ ng serve
 
 # O servidor inciará na porta:4200- acesse <http://localhost:4200>
 
-
+```
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
