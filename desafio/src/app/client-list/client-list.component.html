@@ -1,0 +1,14 @@
+<mat-toolbar>
+    <span>Clientes</span>
+  </mat-toolbar>
+  <div class="container">
+  <a routerLink="/clients/create" mat-flat-button color="primary">Novo Cliente</a>
+  <mat-nav-list>
+    <mat-list-item *ngFor="let client of clients">
+       <a matLine [routerLink]="['/clients', client.id]">{{client.name}}</a>
+       <button mat-icon-button (click)="deleteClient(client)">
+          <mat-icon>delete</mat-icon>
+       </button>
+    </mat-list-item>
+  </mat-nav-list>
+</div>

@@ -1,0 +1,24 @@
+.container{
+    padding-top: 10%;
+    width: 25%;
+    margin: auto;
+}
+
+mat-card-title {
+    text-align: center;
+}
+
+mat-form-field{
+    width: 70%;
+    padding-left: 55px;
+}
+
+button {
+    right: 50%;
+    bottom: 50%;
+    position: fixed;
+}
+
+mat-card{
+    height: 270px;
+}

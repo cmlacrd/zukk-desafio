@@ -1,0 +1,84 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Rafael Fernandes",
+      "phone": "(61) 99945-5012",
+      "address": "Quadra SQN 413 Bloco J 787",
+      "uf": "DF",
+      "email": "rfernandes@email.com",
+      "city": "Brasilia",
+      "neighborhood": "Asa Norte"
+    },
+    {
+      "id": 2,
+      "name": "Joao Almeida",
+      "phone": "(11) 99785-1018",
+      "address": "Rua Leclerc 534",
+      "uf": "SP",
+      "email": "jalmeida@email.com",
+      "city": "Limeira",
+      "neighborhood": "Parque Centreville"
+    },
+    {
+      "id": 3,
+      "name": "Mariana Fagundes",
+      "phone": "(31) 98145-0046",
+      "address": "Rua Geraldo Costa Reis 970",
+      "uf": "MG",
+      "email": "mfagundes@email.com",
+      "city": "Patos de Minas",
+      "neighborhood": "Jardim Ceu Azul"
+    },
+    {
+      "id": 4,
+      "name": "Amanda Toledo",
+      "phone": "(21) 99214-4496",
+      "address": "Praca Padre Rodin 1929",
+      "uf": "RJ",
+      "email": "atoledo@email.com",
+      "city": "Rio de Janeiro",
+      "neighborhood": "Botafogo"
+    },
+    {
+      "id": 5,
+      "name": "Gustavo Porto",
+      "phone": "(62) 99944-6519",
+      "address": "Rua das Acacias 1325",
+      "uf": "GO",
+      "email": "gporto@email.com",
+      "city": "Aparecida de Goiania",
+      "neighborhood": "Jardim Maria Ines"
+    },
+    {
+      "id": 6,
+      "name": "Leandro Silva",
+      "phone": "(64) 99145-7806",
+      "address": "Av Presidente Vargas",
+      "uf": "GO",
+      "email": "lsilva@email.com",
+      "city": "Rio Verde",
+      "neighborhood": "Zona Rural"
+    },
+    {
+      "id": 7,
+      "name": "Danilo Gomes",
+      "phone": "(11) 98217-5531",
+      "address": "Rua Presidente Campos Salles 830",
+      "uf": "SP",
+      "email": "dgomes@email.com",
+      "city": "Mogi das Cruzes",
+      "neighborhood": "Centro"
+    },
+    {
+      "name": "Rafaela Souza",
+      "address": "SQS 410 Bloco I",
+      "neighborhood": "Asa Sul",
+      "city": "Brasilia",
+      "uf": "DF",
+      "phone": "(61) 98541-5045",
+      "email": "rsouza@email.com",
+      "id": 8
+    }
+  ]
+}
