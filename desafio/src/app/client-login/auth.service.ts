@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
-import * as EventEmitter from 'events';
+import { EventEmitter } from '@angular/core';
 import { User } from './usuario';
 
 @Injectable({
@@ -9,6 +9,8 @@ import { User } from './usuario';
 export class AuthService {
 
   private userLogin:boolean = false;
+  showPage: EventEmitter<boolean> = new EventEmitter();
+
 
   constructor(private router:Router) { }
 
@@ -19,6 +21,7 @@ export class AuthService {
         this.router.navigate(['/clients']);
     }else{
       this.userLogin = false;
+      this.router.navigate(['/login']);
     }
 
   }

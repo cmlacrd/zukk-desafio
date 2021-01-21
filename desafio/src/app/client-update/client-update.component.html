@@ -2,7 +2,7 @@
     <span>Editar Cliente</span>
 </mat-toolbar>
 
-<form [formGroup]="clientForm" class="form" (ngSubmit)="updateContact()">
+<form  [formGroup]="clientForm" class="form" (ngSubmit)="updateContact()">
     <mat-form-field appearance="standard">
         <mat-label>Nome</mat-label>
         <input matInput formControlName="name">

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from '../client-login/auth.service';
 import { Client,ClientsService } from '../clients.service';
 
 @Component({
@@ -14,7 +15,7 @@ export class ClientListComponent implements OnInit {
   ngOnInit(): void {
     this.clientsService.listClients().subscribe(clients => {
       this.clients = clients
-    })
+    });
   }
 
   deleteClient(client: Client){

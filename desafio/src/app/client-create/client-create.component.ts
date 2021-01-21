@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { AuthService } from '../client-login/auth.service';
 import { ClientsService } from '../clients.service';
 
 @Component({
@@ -9,6 +10,8 @@ import { ClientsService } from '../clients.service';
   styleUrls: ['./client-create.component.css']
 })
 export class ClientCreateComponent {
+
+
 
   clientForm = new FormGroup({
     name: new FormControl('', Validators.required),
@@ -21,6 +24,8 @@ export class ClientCreateComponent {
   });
 
   constructor(private clientsService: ClientsService, private router:Router) { }
+
+
 
   createClient(): void {
     this.clientsService.createClient(this.clientForm.value).subscribe(client => {

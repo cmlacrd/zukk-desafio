@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ClientsService } from '../clients.service';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { AuthService } from '../client-login/auth.service';
 
 @Component({
   selector: 'app-client-update',
@@ -11,6 +12,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 export class ClientUpdateComponent implements OnInit {
 
   id!: number;
+  
   clientForm = new FormGroup({
     name: new FormControl('', Validators.required),
     address: new FormControl('', Validators.required),
@@ -29,7 +31,7 @@ export class ClientUpdateComponent implements OnInit {
       this.clientsService.returnClient(this.id).subscribe(client => {
         this.clientForm.reset(client);
       });
-    })
+    });
   }
 
   updateContact(){
